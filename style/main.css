@@ -1,0 +1,31 @@
+h1 {
+  background-color: aqua;
+  color: red;
+}
+
+/*calke batenis faili shevqmenit rata batenebi aq gavstilot da magalitad cvladebit avgwero*/
+.button {
+  padding: 4px, 6px;
+  border: 5px;
+  cursor: pointer;
+  background-color: red;
+}
+.button--button-s {
+  padding: 4px, 6px;
+  border: 5px;
+  cursor: pointer;
+  background-color: blue;
+}
+
+.footer {
+  color: yellowgreen;
+  background-color: yellow;
+}
+
+@media (max-width: 780px) {
+  .footer {
+    padding: 12px;
+    background-color: blueviolet;
+    color: black;
+  }
+}/*# sourceMappingURL=main.css.map */

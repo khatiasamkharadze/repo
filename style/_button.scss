@@ -1,0 +1,8 @@
+/*calke batenis faili shevqmenit rata batenebi aq gavstilot da magalitad cvladebit avgwero*/
+@import "./mixin";
+.button {
+  @include button(red);
+  &--button-s {
+    @include button(blue);
+  }
+}

@@ -1,0 +1,11 @@
+@mixin button($background-color) {
+  padding: 4px, 6px;
+  border: 5px;
+  cursor: pointer;
+  background-color: $background-color;
+}
+@mixin breakpoint($size) {
+  @media (max-width: $size) {
+    @content;
+  }
+}
